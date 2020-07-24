@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root
+{
+  --icon-size:1.3em;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(207, 207, 207);
+  font-family: 'Open Sans', sans-serif;
+}
+h2
+{
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-inner
+{
+    width: 960px;
+    margin: auto;
+}
+
+.navbar
+{
+    background-color: #ac4b4b !important;
+}
+
+#social-media
+{
+    display: flex;
+}
+
+.hero {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 55.6px;
+  }
+  
+  .hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .hero .container {
+    position: relative;
+    z-index: 2;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    .hero {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    .hero video {
+      display: none;
+    }
+  }
+
+  .nav-link-text
+  {
+      letter-spacing: 2px;
+      transition: 0.4s; 
+      cursor: pointer;
+  }
+  .nav-link-text:hover
+  {
+    color:rgba(240, 240, 240, 0.719) !important;
+  }
+
+  .navbar-nav a
+  {
+
+    transition: 0.4s;
+  }
+
+  .navbar-nav a:hover
+  {
+    color:rgba(240, 240, 240, 0.719) !important;
+  }
+
+  .fab
+  {
+      color:rgba(0,0,0,.75);
+      transition: 0.4s;
+  }
+  .fab:hover
+  {
+    color:rgba(240, 240, 240, 0.719) !important;
+  }
+
+  .gap
+  {
+    height: 160px;
+  }
+
+  .container.with-gap
+  {
+    margin-bottom: 75px;
+  }
+
+  @media only screen and (min-width: 768px)
+  {
+    .hero {
+      margin-top: 65.2px;
+    }
+    .card
+    {
+      margin-bottom: auto;
+    }
+  }
+  
+  #goToTop
+  {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+   
+  }
+
+  .icon-border
+  {
+    font-size:2.3em;
+    border-radius: 50%;
+    
+    color: white;
+    line-height: var(--icon-size);
+    width: var(--icon-size);
+    height: var(--icon-size);
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(252, 252, 252);
+    transition: 0.4s;
+  }
+  .icon-border:hover
+  {
+    
+  }
+
+  .fas.fa-chevron-up
+  {
+    vertical-align: top;
+    color: #417f85;
+    transition: 0.4s;
+  }
+  .fas.fa-chevron-up:hover
+  {
+    color: #ac4b4b;
+  }
+  .icon-background1
+  {
+    color: whitesmoke;
+  }
+
+  .img-fluid
+  {
+   -webkit-box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3);
+    box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3)
+  }
+
+  hr
+  {
+    width: 60%;
+    border-width: 2px;
+    margin-bottom: 30px;
+  }
+
+  .quote
+  {
+    color: #417f85;
+  }
+
+  #photo-gap1
+  {
+    height: 31.1585px;
+  }
+
+  #photo-gap2
+  {
+    height: 31.1585px;
+  }
+
+  .btn-custom
+  {
+    background-color: #417f85;
+    border-color: #417f85;
+    transition: 0.4s;
+    color: rgb(248, 248, 248);
+  }
+  .btn-custom:hover
+  {
+    background-color: #a3a0a0;
+    border-color: #a3a0a0;
+  }
+ 
+
+  .card
+  {
+    -webkit-box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3);
+    box-shadow: 7px 6px 17px 0px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .site-footer
+  {
+    margin-top: 50px;
+    background-color: #ac4b4b !important;
+    padding: 20px;
+  }
+
+  #myCarousel
+  {
+    text-align: center;
+  }
+
+  .img-gallery
+  {
+    height: 300px;
+    max-height: 300px;
+    width: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+    margin-top: 15px;
+  }
+
+  .row
+  {
+    text-align: center;
+  }
