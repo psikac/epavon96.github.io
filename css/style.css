@@ -77,7 +77,7 @@ h2
   
   @media (pointer: coarse) and (hover: none) {
     .hero {
-      background: url('../images/header.png');
+      background: url('../images/background.jpg') black no-repeat center center scroll;
     }
     .hero video {
       display: none;
